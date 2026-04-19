@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #FF6B00;
+}
+
+body {
+  background: #111111;
+  color: #ededed;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* Circular progress ring */
+.progress-ring-track {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+.progress-ring-fill {
+  stroke: #FF6B00;
+  transition: stroke-dashoffset 0.3s ease;
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "pushups",
+    "name": "Liegestuetze",
+    "description": "Klassische Liegestuetze fuer Brust, Schultern und Trizeps.",
+    "muscleGroups": ["Brust", "Schultern", "Trizeps"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 15,
+    "variants": {
+      "easier": "Liegestuetze auf den Knien",
+      "harder": "Diamant-Liegestuetze"
+    }
+  },
+  {
+    "id": "squats",
+    "name": "Kniebeugen",
+    "description": "Bodyweight Squats fuer Oberschenkel und Gesaess.",
+    "muscleGroups": ["Oberschenkel", "Gesaess"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 20,
+    "variants": {
+      "easier": "Halbe Kniebeugen",
+      "harder": "Pistol Squats"
+    }
+  },
+  {
+    "id": "burpees",
+    "name": "Burpees",
+    "description": "Ganzkoeperruebung mit Sprung, Liegestuetz und Aufstehen.",
+    "muscleGroups": ["Ganzkoeperr", "Brust", "Oberschenkel"],
+    "difficulty": "advanced",
+    "type": "reps",
+    "defaultValue": 10,
+    "variants": {
+      "easier": "Burpees ohne Liegestuetz",
+      "harder": "Burpees mit Tuck Jump"
+    }
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "description": "Statische Halteposition fuer die gesamte Rumpfmuskulatur.",
+    "muscleGroups": ["Core", "Schultern"],
+    "difficulty": "beginner",
+    "type": "time",
+    "defaultValue": 45,
+    "variants": {
+      "easier": "Plank auf den Knien",
+      "harder": "Plank mit Arm-Heben"
+    }
+  },
+  {
+    "id": "lunges",
+    "name": "Ausfallschritte",
+    "description": "Wechselseitige Ausfallschritte fuer Beine und Balance.",
+    "muscleGroups": ["Oberschenkel", "Gesaess", "Waden"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 12,
+    "variants": {
+      "easier": "Statische Ausfallschritte",
+      "harder": "Sprung-Ausfallschritte"
+    }
+  },
+  {
+    "id": "mountain-climbers",
+    "name": "Mountain Climbers",
+    "description": "Dynamische Uebung im Liegestuetz-Position fuer Cardio und Core.",
+    "muscleGroups": ["Core", "Oberschenkel", "Schultern"],
+    "difficulty": "intermediate",
+    "type": "time",
+    "defaultValue": 30,
+    "variants": {
+      "easier": "Langsame Mountain Climbers",
+      "harder": "Cross-Body Mountain Climbers"
+    }
+  },
+  {
+    "id": "jumping-jacks",
+    "name": "Hampelmaenner",
+    "description": "Klassische Aufwaermuebung und Cardio-Uebung.",
+    "muscleGroups": ["Ganzkoeperr", "Waden"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 30,
+    "variants": {
+      "easier": "Step Jacks (ohne Sprung)",
+      "harder": "Star Jumps"
+    }
+  },
+  {
+    "id": "tricep-dips",
+    "name": "Dips",
+    "description": "Trizeps-Dips an einer Stuhlkante oder Bank.",
+    "muscleGroups": ["Trizeps", "Schultern", "Brust"],
+    "difficulty": "intermediate",
+    "type": "reps",
+    "defaultValue": 12,
+    "variants": {
+      "easier": "Dips mit angewinkelten Beinen",
+      "harder": "Dips mit gestreckten Beinen und Gewicht"
+    }
+  },
+  {
+    "id": "high-knees",
+    "name": "Kniehebelauf",
+    "description": "Auf der Stelle laufen mit hohem Kniehub fuer Cardio.",
+    "muscleGroups": ["Oberschenkel", "Core", "Waden"],
+    "difficulty": "intermediate",
+    "type": "time",
+    "defaultValue": 30,
+    "variants": {
+      "easier": "Langsamer Kniehebelauf",
+      "harder": "Sprint Kniehebelauf"
+    }
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Beckenheben",
+    "description": "Gesaessbruecke im Liegen fuer Gesaess und unteren Ruecken.",
+    "muscleGroups": ["Gesaess", "Unterer Ruecken", "Oberschenkel"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 15,
+    "variants": {
+      "easier": "Beckenheben beidbeinig",
+      "harder": "Einbeiniges Beckenheben"
+    }
+  },
+    {
+    "id": "hip-flexor-stretch",
+    "name": "Hueftbeuger Stretch",
+    "description": "Dehnung der Hueftbeuger, wichtig bei langem Sitzen.",
+    "muscleGroups": ["Huefte", "Oberschenkel"],
+    "difficulty": "beginner",
+    "type": "time",
+    "defaultValue": 30,
+    "variants": {
+      "easier": "Leichte Dehnung im Stand",
+      "harder": "Mit Arm ueber Kopf und Rueckbeuge"
+    }
+  },
+  {
+    "id": "bird-dog",
+    "name": "Bird Dog",
+    "description": "Stabilisationsuebung fuer Core und unteren Ruecken.",
+    "muscleGroups": ["Core", "Unterer Ruecken"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 10,
+    "variants": {
+      "easier": "Nur Arme oder Beine bewegen",
+      "harder": "Langsam mit Pause halten"
+    }
+  },
+  {
+    "id": "dead-bug",
+    "name": "Dead Bug",
+    "description": "Core-Uebung zur Verbesserung der Koordination und Stabilitaet.",
+    "muscleGroups": ["Core"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 12,
+    "variants": {
+      "easier": "Nur Beine bewegen",
+      "harder": "Mit Gewicht oder langsamer Ausfuehrung"
+    }
+  },
+  {
+    "id": "superman-hold",
+    "name": "Superman Hold",
+    "description": "Staerkt den unteren Ruecken und verbessert die Haltung.",
+    "muscleGroups": ["Unterer Ruecken", "Schultern"],
+    "difficulty": "beginner",
+    "type": "time",
+    "defaultValue": 30,
+    "variants": {
+      "easier": "Nur Arme oder Beine anheben",
+      "harder": "Mit kleinen Bewegungen halten"
+    }
+  },
+  {
+    "id": "single-leg-deadlift",
+    "name": "Einbeinige Deadlifts",
+    "description": "Verbessert Balance und Beinmuskulatur fuer Radfahrer.",
+    "muscleGroups": ["Oberschenkel", "Gesaess", "Core"],
+    "difficulty": "intermediate",
+    "type": "reps",
+    "defaultValue": 10,
+    "variants": {
+      "easier": "Mit Abstuetzen",
+      "harder": "Mit Gewicht"
+    }
+  },
+  {
+    "id": "wall-angels",
+    "name": "Wall Angels",
+    "description": "Haltungsuebung fuer Schultern und oberen Ruecken.",
+    "muscleGroups": ["Schultern", "Oberer Ruecken"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 12,
+    "variants": {
+      "easier": "Kleinere Bewegung",
+      "harder": "Langsam mit Pause"
+    }
+  },
+  {
+    "id": "calf-raises",
+    "name": "Wadenheben",
+    "description": "Staerkt die Waden fuer bessere Kraftuebertragung beim Radfahren.",
+    "muscleGroups": ["Waden"],
+    "difficulty": "beginner",
+    "type": "reps",
+    "defaultValue": 20,
+    "variants": {
+      "easier": "Beidbeinig",
+      "harder": "Einbeinig"
+    }
+  }
+]

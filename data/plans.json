@@ -1,0 +1,22 @@
+[
+  {
+    "id": "4-wochen-einstieg",
+    "name": "4 Wochen Einstieg",
+    "description": "Dein Start in ein aktiveres Leben. Abwechslung aus Grundlagen und intensiveren Einheiten ueber 4 Wochen.",
+    "weeks": 4,
+    "schedule": [
+      { "week": 1, "day": 1, "workoutId": "ganzkoeperr-basics" },
+      { "week": 1, "day": 3, "workoutId": "ganzkoeperr-basics" },
+      { "week": 1, "day": 5, "workoutId": "ganzkoeperr-basics" },
+      { "week": 2, "day": 1, "workoutId": "ganzkoeperr-basics" },
+      { "week": 2, "day": 3, "workoutId": "hiit-burner" },
+      { "week": 2, "day": 5, "workoutId": "ganzkoeperr-basics" },
+      { "week": 3, "day": 1, "workoutId": "hiit-burner" },
+      { "week": 3, "day": 3, "workoutId": "ganzkoeperr-basics" },
+      { "week": 3, "day": 5, "workoutId": "hiit-burner" },
+      { "week": 4, "day": 1, "workoutId": "hiit-burner" },
+      { "week": 4, "day": 3, "workoutId": "hiit-burner" },
+      { "week": 4, "day": 5, "workoutId": "ganzkoeperr-basics" }
+    ]
+  }
+]

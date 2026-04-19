@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ganzkoeperr-basics",
+    "name": "Ganzkoeperr Basics",
+    "description": "Ein solides Ganzkoeperr-Workout fuer Einsteiger mit den wichtigsten Grunduebungen.",
+    "exercises": [
+      { "exerciseId": "jumping-jacks", "sets": 3, "reps": 30, "restSeconds": 30 },
+      { "exerciseId": "pushups", "sets": 3, "reps": 15, "restSeconds": 45 },
+      { "exerciseId": "squats", "sets": 3, "reps": 20, "restSeconds": 45 },
+      { "exerciseId": "plank", "sets": 3, "duration": 45, "restSeconds": 30 },
+      { "exerciseId": "lunges", "sets": 3, "reps": 12, "restSeconds": 45 },
+      { "exerciseId": "glute-bridge", "sets": 3, "reps": 15, "restSeconds": 30 }
+    ],
+    "estimatedMinutes": 30,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "hiit-burner",
+    "name": "HIIT Burner",
+    "description": "Intensives Intervall-Training fuer maximale Fettverbrennung und Ausdauer.",
+    "exercises": [
+      { "exerciseId": "burpees", "sets": 4, "reps": 10, "restSeconds": 30 },
+      { "exerciseId": "mountain-climbers", "sets": 4, "duration": 30, "restSeconds": 20 },
+      { "exerciseId": "high-knees", "sets": 4, "duration": 30, "restSeconds": 20 },
+      { "exerciseId": "pushups", "sets": 4, "reps": 15, "restSeconds": 30 },
+      { "exerciseId": "squats", "sets": 4, "reps": 20, "restSeconds": 30 },
+      { "exerciseId": "tricep-dips", "sets": 4, "reps": 12, "restSeconds": 30 }
+    ],
+    "estimatedMinutes": 35,
+    "difficulty": "advanced"
+  },
+  {
+  "id": "mobility-desk-rider",
+  "name": "Mobility fuer Viel-Sitzer & Radfahrer",
+  "description": "Lockert Huefte, Ruecken und Schultern nach langem Sitzen oder Radfahren.",
+  "exercises": [
+    { "exerciseId": "hip-flexor-stretch", "sets": 2, "duration": 30, "restSeconds": 10 },
+    { "exerciseId": "wall-angels", "sets": 2, "reps": 12, "restSeconds": 20 },
+    { "exerciseId": "superman-hold", "sets": 2, "duration": 30, "restSeconds": 20 },
+    { "exerciseId": "bird-dog", "sets": 2, "reps": 10, "restSeconds": 20 }
+  ],
+  "estimatedMinutes": 15,
+  "difficulty": "beginner"
+},
+{
+  "id": "core-posture",
+  "name": "Core & Haltung",
+  "description": "Staerkt Rumpf und verbessert Haltung auf dem Rad.",
+  "exercises": [
+    { "exerciseId": "plank", "sets": 3, "duration": 45, "restSeconds": 30 },
+    { "exerciseId": "dead-bug", "sets": 3, "reps": 12, "restSeconds": 30 },
+    { "exerciseId": "bird-dog", "sets": 3, "reps": 10, "restSeconds": 30 },
+    { "exerciseId": "superman-hold", "sets": 3, "duration": 30, "restSeconds": 30 }
+  ],
+  "estimatedMinutes": 20,
+  "difficulty": "beginner"
+},
+{
+  "id": "quick-reset",
+  "name": "Quick Reset",
+  "description": "Kurzes Workout gegen Rueckenschmerzen und Steifheit.",
+  "exercises": [
+    { "exerciseId": "hip-flexor-stretch", "sets": 1, "duration": 30, "restSeconds": 10 },
+    { "exerciseId": "plank", "sets": 2, "duration": 30, "restSeconds": 20 },
+    { "exerciseId": "bird-dog", "sets": 2, "reps": 10, "restSeconds": 20 }
+  ],
+  "estimatedMinutes": 10,
+  "difficulty": "beginner"
+}
+]
