@@ -85,7 +85,6 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
   const [stepIndex, setStepIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("exercise");
   const [timer, setTimer] = useState(0);
-  const [repCount, setRepCount] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
   const [started, setStarted] = useState(false);
 
@@ -124,7 +123,6 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
       setStepIndex((i) => i + 1);
       setPhase("exercise");
       setTimer(0);
-      setRepCount(0);
       setIsRunning(false);
     } else {
       setPhase("done");
@@ -141,7 +139,6 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
       setStepIndex(next);
       setPhase("exercise");
       setTimer(0);
-      setRepCount(0);
       setIsRunning(false);
     } else {
       setPhase("done");
