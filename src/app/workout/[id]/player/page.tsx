@@ -176,9 +176,6 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
     if (phase === "rest" && timer <= 0 && !isRunning) goToNextStep();
   }, [timer, phase, isRunning, goToNextStep]);
 
-  useEffect(() => {
-    if (phase === "exercise" && !isTime && repCount >= targetReps) goToRest();
-  }, [repCount, phase, isTime, targetReps, goToRest]);
 
   /* ---- Loading ---- */
   if (!mounted) return <main className="max-w-lg mx-auto px-5 pt-6" />;
@@ -264,7 +261,7 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
   /* ---- Ring progress ---- */
   let ring = 0;
   if (phase === "exercise") {
-    ring = isTime ? (timer / targetTime) * 100 : (repCount / targetReps) * 100;
+    ring = isTime ? (timer / targetTime) * 100 : 0;
   } else if (phase === "rest") {
     const total = we?.restSeconds ?? 1;
     ring = ((total - timer) / total) * 100;
@@ -336,14 +333,25 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
 
           {/* Ring counter */}
           <div className="flex-1 flex items-center justify-center">
-            <ProgressRing progress={ring}>
-              <span className="text-7xl font-headline text-white tabular-nums leading-none">
-                {isTime ? (isRunning ? targetTime - timer : targetTime) : repCount}
-              </span>
-              <span className="text-[11px] text-light/20 uppercase tracking-wider mt-1.5">
-                von {isTime ? targetTime : targetReps} {isTime ? "Sek." : "Wdh"}
-              </span>
-            </ProgressRing>
+            {isTime ? (
+              <ProgressRing progress={ring}>
+                <span className="text-7xl font-headline text-white tabular-nums leading-none">
+                  {isRunning ? targetTime - timer : targetTime}
+                </span>
+                <span className="text-[11px] text-light/20 uppercase tracking-wider mt-1.5">
+                  von {targetTime} Sek.
+                </span>
+              </ProgressRing>
+            ) : (
+              <div className="flex flex-col items-center">
+                <span className="text-8xl font-headline text-accent tabular-nums leading-none">
+                  {targetReps}
+                </span>
+                <span className="text-[13px] text-light/25 uppercase tracking-wider mt-2">
+                  Wiederholungen
+                </span>
+              </div>
+            )}
           </div>
 
           {/* Next preview */}
@@ -390,10 +398,10 @@ export default function PlayerPage({ params }: { params: { id: string } }) {
               </button>
             ) : (
               <button
-                onClick={() => setRepCount((c) => c + 1)}
+                onClick={goToRest}
                 className="flex-1 h-[52px] bg-accent text-white font-headline text-base rounded-full uppercase tracking-[0.18em] hover:brightness-110 transition-all"
               >
-                Wdh +1
+                Fertig
               </button>
             )}
 
