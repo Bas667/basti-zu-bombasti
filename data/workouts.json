@@ -67,4 +67,18 @@
   "estimatedMinutes": 10,
   "difficulty": "beginner"
 }
+{
+  "id": "5min-blitz",
+  "name": "5-Minuten Blitz",
+  "description": "Schnelles Ganzkoerper-Workout fuer zwischendurch. Kein Equipment, keine Ausreden.",
+  "exercises": [
+    { "exerciseId": "jumping-jacks", "sets": 1, "reps": 30, "restSeconds": 10 },
+    { "exerciseId": "squats", "sets": 1, "reps": 15, "restSeconds": 10 },
+    { "exerciseId": "pushups", "sets": 1, "reps": 10, "restSeconds": 10 },
+    { "exerciseId": "mountain-climbers", "sets": 1, "duration": 20, "restSeconds": 10 },
+    { "exerciseId": "plank", "sets": 1, "duration": 45, "restSeconds": 0 }
+  ],
+  "estimatedMinutes": 5,
+  "difficulty": "beginner"
+}
 ]
